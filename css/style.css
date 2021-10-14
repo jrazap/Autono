@@ -425,7 +425,7 @@ footer .credit ul li {
   cursor: pointer;
 }
 footer .credit ul li:hover {
-  opacity: 0.7;
+  opacity: 0.7; 
 }
 /* Media Queries */
 @media (min-width: 1200px) {
