@@ -474,12 +474,9 @@ footer .credit ul li:hover {
   html {
     font-size: 70%;
   }
-  .advantages {
-    height: 120vh;
-  }
   .advantages .container p {
     font-size: 14px;
-    width: 100%;
+    width: 80%;
   }
   .vision,
   .services .box-container .box {
@@ -495,8 +492,8 @@ footer .credit ul li:hover {
     width: 80%;
   }
   .advantages .box-container {
-    width: 70%;
-    height: 80vh;
+    width: 60%;
+    height: 60vh;
     margin-top: 10vh;
     padding: 2rem;
   }
