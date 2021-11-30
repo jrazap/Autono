@@ -426,7 +426,7 @@ footer .credit ul li:hover {
 }
 /* Media Queries */
 
-@media (min-width: 1300px) {
+@media (min-width: 1401px) {
   html {
     font-size: 100%;
   }
@@ -468,7 +468,7 @@ footer .credit ul li:hover {
     margin-top: 5rem;
   }
 }
-@media (min-width: 1200px) and (max-width: 1299px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   html {
     font-size: 70%;
   }
@@ -490,10 +490,13 @@ footer .credit ul li:hover {
   .services .box-container .box:nth-child(even) .containerX p {
     width: 80%;
   }
+  .advantages {
+    height: 110vh;
+  }
   .advantages .box-container {
     width: 60%;
-    padding: 8rem 2rem;
-    height: 70vh;
+    padding: 5rem 2rem;
+    height: 80vh;
   }
   .numbers .box-container {
     grid-template-columns: repeat(2, 35%);
@@ -515,7 +518,6 @@ footer .credit ul li:hover {
   html {
     font-size: 70%;
   }
-
   .advantages .container p {
     font-size: 14px;
     width: 60%;
@@ -536,7 +538,7 @@ footer .credit ul li:hover {
   .advantages .box-container {
     width: 60%;
     padding: 5rem 2rem;
-    height: 70vh;
+    height: 60vh;
   }
   .numbers .box-container {
     grid-template-columns: repeat(2, 35%);
