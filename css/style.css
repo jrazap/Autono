@@ -425,7 +425,7 @@ footer .credit ul li {
   cursor: pointer;
 }
 footer .credit ul li:hover {
-  opacity: 0.7; 
+  opacity: 0.7;
 }
 /* Media Queries */
 @media (min-width: 1200px) {
@@ -474,9 +474,12 @@ footer .credit ul li:hover {
   html {
     font-size: 70%;
   }
+  .advantages {
+    height: 120vh;
+  }
   .advantages .container p {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
   .vision,
   .services .box-container .box {
@@ -492,8 +495,8 @@ footer .credit ul li:hover {
     width: 80%;
   }
   .advantages .box-container {
-    width: 60%;
-    height: 60vh;
+    width: 70%;
+    height: 80vh;
     margin-top: 10vh;
     padding: 2rem;
   }
