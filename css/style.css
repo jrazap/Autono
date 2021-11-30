@@ -206,16 +206,13 @@ header h2 {
   color: #fff;
   padding: 3rem 2rem;
   border-radius: 1rem;
-  width: 28vw;
-  height: 70vh;
   margin-top: 5vh;
 }
 .advantages .box-container .container {
-  width: 50vw;
+  width: 60vw;
 }
 .advantages .container p {
   margin-bottom: 2rem;
-  width: 20vw;
 }
 .advantages .container .btn button,
 .btn span {
@@ -428,7 +425,8 @@ footer .credit ul li:hover {
   opacity: 0.7;
 }
 /* Media Queries */
-@media (min-width: 1200px) {
+
+@media (min-width: 1300px) {
   html {
     font-size: 100%;
   }
@@ -448,12 +446,12 @@ footer .credit ul li:hover {
   .advantages .box-container {
     height: 70vh;
     margin-top: 5vh;
-    padding: 10vh 2rem;
-    width: 40%;
+    padding: 5vh 2rem;
+    width: 50%;
   }
   .advantages .container p {
     font-size: 16px;
-    width: 50%;
+    width: 40%;
   }
   .numbers .box-container {
     grid-template-columns: repeat(2, 35%);
@@ -470,13 +468,14 @@ footer .credit ul li:hover {
     margin-top: 5rem;
   }
 }
-@media (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1299px) {
   html {
     font-size: 70%;
   }
+
   .advantages .container p {
     font-size: 14px;
-    width: 80%;
+    width: 70%;
   }
   .vision,
   .services .box-container .box {
@@ -493,8 +492,8 @@ footer .credit ul li:hover {
   }
   .advantages .box-container {
     width: 60%;
-    height: 60vh;
-    padding: 2rem;
+    padding: 8rem 2rem;
+    height: 70vh;
   }
   .numbers .box-container {
     grid-template-columns: repeat(2, 35%);
@@ -512,12 +511,50 @@ footer .credit ul li:hover {
     margin-top: 5rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   html {
-    font-size: 80%;
+    font-size: 70%;
+  }
+
+  .advantages .container p {
+    font-size: 14px;
+    width: 60%;
+  }
+  .vision,
+  .services .box-container .box {
+    grid-template-columns: 60% 40%;
+  }
+  .services .box-container .box:nth-child(even) {
+    grid-template-columns: 40% 60%;
+  }
+  .services .box-container .box:nth-child(even) .containerX {
+    margin-left: 10rem;
+  }
+  .services .box-container .box:nth-child(even) .containerX p {
+    width: 80%;
+  }
+  .advantages .box-container {
+    width: 60%;
+    padding: 5rem 2rem;
+    height: 70vh;
+  }
+  .numbers .box-container {
+    grid-template-columns: repeat(2, 35%);
+    row-gap: 3rem;
+    column-gap: 5rem;
+  }
+  .careers .box-container {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .careers p {
+    font-size: 12px;
+  }
+  .careers .btn {
+    margin-top: 5rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #menu-bar {
     display: initial;
     position: absolute;
@@ -568,6 +605,10 @@ footer .credit ul li:hover {
   .vision .box-container {
     order: 2;
   }
+  .careers .box-container {
+    width: 80vw;
+    margin-top: 5rem;
+  }
   .containerX h2 {
     font-size: 30px;
   }
@@ -580,8 +621,114 @@ footer .credit ul li:hover {
   .subtitle {
     width: 200%;
   }
-  .advantages .container p {
+  .advantages .box-container {
     width: 80%;
+    padding: 4rem 2rem;
+    margin-top: 10vh;
+    height: 60vh;
+  }
+  .advantages .container p {
+    width: 100%;
+    font-size: 12px;
+  }
+  p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .numbers {
+    padding: 5rem;
+  }
+  .numbers .box-container {
+    grid-template-columns: repeat(2, 45%);
+  }
+  .numbers img {
+    margin-left: -5rem;
+  }
+  .industry .box-container {
+    column-gap: 0.5rem;
+  }
+  footer h3 {
+    margin: 0 0 5rem;
+  }
+  footer .box-container .box1 {
+    grid-template-columns: repeat(2, 50%);
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+  #menu-bar {
+    display: initial;
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+  }
+  header nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #98a7b5;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header nav ul#navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header nav ul li a,
+  nav ul li:last-child a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    display: block;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-left: 0.5rem solid #000;
+    background-color: inherit;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  html {
+    font-size: 70%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .vision,
+  .services .container,
+  .services .box-container .box,
+  .services .box-container .box:nth-child(even),
+  .numbers,
+  .careers,
+  footer .box-container {
+    grid-template-columns: 100%;
+  }
+  .containerX,
+  .vision .container,
+  .numbers img,
+  .vision .box-container {
+    order: 2;
+  }
+  .careers .box-container {
+    width: 80vw;
+    margin-top: 5rem;
+  }
+  .containerX h2 {
+    font-size: 30px;
+  }
+  .services .box-container .box:nth-child(even) .containerX {
+    margin-left: 0;
+  }
+  .services .box-container .box:nth-child(even) .containerX p {
+    width: 80%;
+  }
+  .subtitle {
+    width: 200%;
+  }
+  .advantages .box-container {
+    width: 90%;
+    padding: 4rem 2rem;
+    height: 70vh;
+  }
+  .advantages .container p {
+    width: 100%;
     font-size: 12px;
   }
   p {
