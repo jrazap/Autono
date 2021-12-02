@@ -518,10 +518,6 @@ footer .credit ul li:hover {
   html {
     font-size: 70%;
   }
-  .advantages .container p {
-    font-size: 14px;
-    width: 60%;
-  }
   .vision,
   .services .box-container .box {
     grid-template-columns: 60% 40%;
@@ -535,10 +531,17 @@ footer .credit ul li:hover {
   .services .box-container .box:nth-child(even) .containerX p {
     width: 80%;
   }
+  .advantages {
+    height: 110vh;
+  }
   .advantages .box-container {
-    width: 60%;
+    width: 80%;
     padding: 5rem 2rem;
-    height: 60vh;
+    height: 500px;
+  }
+  .advantages .container p {
+    font-size: 14px;
+    width: 80%;
   }
   .numbers .box-container {
     grid-template-columns: repeat(2, 35%);
@@ -623,11 +626,14 @@ footer .credit ul li:hover {
   .subtitle {
     width: 200%;
   }
+  .advantages {
+    height: 120vh;
+  }
   .advantages .box-container {
     width: 80%;
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
     margin-top: 10vh;
-    height: 60vh;
+    height: 500px;
   }
   .advantages .container p {
     width: 100%;
@@ -724,10 +730,13 @@ footer .credit ul li:hover {
   .subtitle {
     width: 200%;
   }
+  .advantages {
+    height: 127vh;
+  }
   .advantages .box-container {
     width: 90%;
-    padding: 4rem 2rem;
-    height: 70vh;
+    padding: 5rem 2rem;
+    height: 600px;
   }
   .advantages .container p {
     width: 100%;
@@ -756,58 +765,121 @@ footer .credit ul li:hover {
     grid-template-columns: repeat(2, 50%);
     margin-bottom: 2rem;
   }
+  footer .box-container .box2 {
+    margin-bottom: 3rem;
+  }
+  footer .credit p {
+    bottom: 3rem;
+    font-size: 12px;
+    text-align: center;
+  }
+  footer .credit ul {
+    right: 34%;
+  }
+  footer .credit p a {
+    display: inline-block;
+  }
 }
 @media (max-width: 400px) {
-  html {
-    font-size: 50%;
+  #menu-bar {
+    display: initial;
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
   }
-  header h1 {
-    margin: 20vh auto;
-    width: 90%;
+  header nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #98a7b5;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header nav ul#navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header nav ul li a,
+  nav ul li:last-child a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    display: block;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-left: 0.5rem solid #000;
+    background-color: inherit;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  html {
+    font-size: 60%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .vision,
+  .services .container,
+  .services .box-container .box,
+  .services .box-container .box:nth-child(even),
+  .numbers,
+  .careers,
+  footer .box-container {
+    grid-template-columns: 100%;
+  }
+  .containerX,
+  .vision .container,
+  .numbers img,
+  .vision .box-container {
+    order: 2;
+  }
+  .careers .box-container {
+    width: 80vw;
+    margin-top: 5rem;
+  }
+  .containerX h2 {
+    font-size: 30px;
   }
   .services .box-container .box:nth-child(even) .containerX {
     margin-left: 0;
   }
   .services .box-container .box:nth-child(even) .containerX p {
-    width: 100%;
+    width: 80%;
   }
-  .container,
+  .subtitle {
+    width: 200%;
+  }
+  .advantages {
+    height: 120vh;
+  }
   .advantages .box-container {
     width: 100%;
-  }
-  .advantages .box-container {
-    height: 60vh;
-    padding: 7vh 2rem;
+    padding: 4rem 2rem;
+    height: 550px;
   }
   .advantages .container p {
-    width: 150%;
+    width: 100%;
     font-size: 10px;
   }
-  .numbers .box-container .box h2 {
-    font-size: 30px;
+  p {
+    width: 100%;
+    font-size: 12px;
   }
-  .industry .container {
-    margin-bottom: 5rem;
+  .numbers {
+    padding: 5rem;
+  }
+  .numbers h3 {
+    font-size: 22px;
+  }
+  .numbers .box-container {
+    grid-template-columns: 100%;
+  }
+  .numbers img {
+    margin-left: -5rem;
   }
   .industry .box-container {
-    column-gap: 0.5rem;
+    grid-template-columns: 100%;
   }
-  .industry .box-container .box img {
-    width: 100px;
-    height: 100px;
-  }
-  .industry .box-container .box h4 {
-    font-size: 9px;
-  }
-  .careers .box-container {
-    width: 100%;
-    margin-top: 5rem;
-  }
-  .careers p {
-    font-size: 10px;
-  }
-  .careers .btn {
-    margin-top: 7rem;
+  .careers .box-container p {
+    height: 26rem;
   }
   footer h3 {
     margin: 0 0 5rem;
