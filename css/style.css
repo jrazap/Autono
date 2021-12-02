@@ -848,12 +848,12 @@ footer .credit ul li:hover {
     width: 200%;
   }
   .advantages {
-    height: 120vh;
+    height: 110vh;
   }
   .advantages .box-container {
     width: 100%;
     padding: 4rem 2rem;
-    height: 550px;
+    height: 500px;
   }
   .advantages .container p {
     width: 100%;
