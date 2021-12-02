@@ -425,7 +425,6 @@ footer .credit ul li:hover {
   opacity: 0.7;
 }
 /* Media Queries */
-
 @media (min-width: 1401px) {
   html {
     font-size: 100%;
@@ -472,7 +471,6 @@ footer .credit ul li:hover {
   html {
     font-size: 70%;
   }
-
   .advantages .container p {
     font-size: 14px;
     width: 70%;
