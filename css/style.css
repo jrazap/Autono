@@ -126,7 +126,7 @@ nav ul li:last-child:hover a {
 /* Header Section */
 header {
   height: 100vh;
-  background: url("../img/header.png") no-repeat center;
+  background: url("../img/header.webp") no-repeat center;
   background-size: cover;
 }
 header h1 {
@@ -198,7 +198,7 @@ header h2 {
 /* Advantages Section */
 .advantages {
   height: 100vh;
-  background: url(../img/05.png) no-repeat fixed center;
+  background: url(../img/05.webp) no-repeat fixed center;
   background-size: cover;
 }
 .advantages .box-container {
