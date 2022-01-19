@@ -200,7 +200,7 @@ header h2 {
 /* Advantages Section */
 .advantages {
   height: 100vh;
-  background: url(../img/05.webp) no-repeat fixed center;
+  background: url('../img/05.webp') no-repeat fixed center;
   background-size: cover;
 }
 .advantages .box-container {
