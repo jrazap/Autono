@@ -259,7 +259,7 @@ header h2 {
   border: 1px solid #000;
   margin-top: -3px;
 }
-.numbers .box-container .box h4 {
+.numbers .box-container .box .numtext {
   font-size: 14px;
   letter-spacing: 0.16em;
   font-weight: 400;
@@ -360,7 +360,7 @@ footer .box-container .box2 h2 {
   letter-spacing: 0.08em;
   margin-bottom: 3rem;
 }
-footer .box-container .box2 h4 {
+footer .box-container .box2 p.signtext {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.05em;
